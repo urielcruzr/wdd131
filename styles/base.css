@@ -1,0 +1,197 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f8f8f8;
+  font-family: Afacad Flux, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  background-color: #ffcb64;
+  padding: 0.5rem;
+  color: #333;
+  font-family: poppins, sans-serif;
+  font-weight: 700;
+}
+
+
+
+/* Navigation Bar */
+nav {
+  margin: 0 auto 2rem;
+  max-width: 100%;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #333;
+  align-items: center;
+}
+
+.menu li {
+  flex: 1 1 auto;
+}
+
+.menu a {
+  display: block;
+  color: #f8f8f8;
+  padding: 0.75rem;
+  text-decoration: none;
+  text-align: center;
+}
+
+.menu a:hover {
+  background-color: #f8f8f8;
+  color: black;
+  font-size: 1.1rem;
+}
+
+/* END OF NAVIAATION BAR */
+
+
+
+/* Begining of Main Parts*/
+.container {
+  display: flex;
+  width: 90%;
+  /* Adjust as needed */
+  margin: 15px auto;
+  /* Center the container */
+}
+
+.card {
+  flex: 1;
+  /* Equal width for both columns */
+  padding: 20px;
+  border: 1px solid #ddd;
+  /* Optional: add borders for clarity */
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  /* Optional: Light background color */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  /* Optional: Add a subtle shadow */
+  margin: 0 10px;
+  /* Adds some space between the boxes */
+}
+
+/* About Me Column Styles */
+.about-me {
+  /* Styles specific to the "About Me" column, if needed */
+}
+
+.about-me h2 {
+  color: #333;
+  /* Title color */
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: #ffcb64;
+  color: #333;
+  padding: 10px;
+
+}
+
+.about-me p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.about-me img {
+  max-width: 100%;
+  /* Image fits within the column */
+  height: auto;
+  /* Maintain aspect ratio */
+  display: grid;
+  /* Removes extra space below the image */
+  grid-template-columns: 1fr 1fr;
+  margin: 10px auto;
+  /* Center the image */
+}
+
+/* Web Dev Resources Column Styles */
+.web-dev-resources {
+  /* Styles specific to the "Web Dev Resources" column, if needed */
+}
+
+.web-dev-resources h2 {
+  color: #333;
+  /* Title color */
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: #ffcb64;
+  color: #333;
+  padding: 10px;
+}
+
+.web-dev-resources ul {
+  list-style-type: none;
+  /* Remove bullet points */
+  padding: 0;
+}
+
+.web-dev-resources li {
+  margin-bottom: 10px;
+}
+
+.web-dev-resources a {
+  color: #337ab7;
+  /* Link color */
+  text-decoration: none;
+  /* Remove underlines */
+}
+
+.web-dev-resources a:hover {
+  text-decoration: underline;
+  /* Add underline on hover */
+}
+
+/* Optional: Styles for the Madagascar flag */
+.city {
+  max-width: 50%;
+  /* Adjust flag size */
+  height: auto;
+  display: block;
+  margin: 10px auto;
+}
+
+.city-caption {
+  text-align: center;
+  font-style: italic;
+  font-size: 0.8em;
+  color: #777;
+}
+
+/* END OF MAIN PARTS */
+
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #333;
+  color: #f8f8f8;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+}
+
+/* Finish Footer */
+
+
+/*
+Colr palette 
+#f8f8f8
+#D9F3D9
+#c0e8b5
+#b2bddc
+#ffcb64
+#333
+*/
