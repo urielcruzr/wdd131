@@ -85,9 +85,8 @@ nav {
 }
 
 /* About Me Column Styles */
-.about-me {
+/*.about-me {}*/
   /* Styles specific to the "About Me" column, if needed */
-}
 
 .about-me h2 {
   color: #333;
@@ -118,9 +117,9 @@ nav {
 }
 
 /* Web Dev Resources Column Styles */
-.web-dev-resources {
+/*.web-dev-resources {}*/
   /* Styles specific to the "Web Dev Resources" column, if needed */
-}
+
 
 .web-dev-resources h2 {
   color: #333;
