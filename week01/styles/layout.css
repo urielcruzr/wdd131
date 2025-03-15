@@ -1,14 +1,14 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 header p {
     background-color: #231f1f;
     color: white;
-    padding-top: 10px;
+    padding-top: 15px;
     padding-bottom: 50px;
+    padding-left: 15px;
 }
 
 .navigation ul {
@@ -43,17 +43,21 @@ header p {
 
 .main-cont {
     background-color: rgb(197, 197, 197);
+    padding-top: 15px;
+    padding-left: 15px;
 }
 
 aside {
-    padding: 0 25px;
-    text-align: cent;
+    margin-right: 100px;
+    margin-left: 40px;
+    padding: 15px 0px 0px 0px;
+    text-align: left;
 }
 
-.footer {
+.footer{
     background-color: #181616;
     color: white;
-    padding-top: 10px;
-    padding-bottom: 100px;
+    padding: 15px 0px 15% 0px;
+    text-align: center;
 
 }
