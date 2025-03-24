@@ -1,5 +1,5 @@
-const year = document.querySelector("#currentdate");
+// Get the current year and update the footer
+document.getElementById("currentyear").textContent = new Date().getFullYear();
 
-const today = new Date();
-
-year.innerHTML = `getFullYear(): <span id="currentdate">${today.getFullYear()}</span>`;
+// Get the last modified date and update the footer
+document.getElementById("lasModified").textContent = "Last Modified: " + document.lastModified;
